@@ -77,6 +77,15 @@ GIT
       spree_core (~> 2.0.4)
 
 GIT
+  remote: https://github.com/lhpaul/spree_minicart_ajax_update
+  revision: 5ab5fd783fee6d8fe81547c7a70196c1e1935988
+  branch: 2-0-stable
+  specs:
+    spree_minicart_ajax_update (2.pre.0.pre.stable)
+      spree_core (>= 2.pre.0.pre.stable)
+      spree_minicart
+
+GIT
   remote: https://github.com/sbounmy/spree_minicart.git
   revision: aae6d30e235033a9e98396be640be570d25ff583
   branch: master
@@ -107,13 +116,6 @@ GIT
     spree_gateway (2.1.0.beta)
       savon (~> 1.2)
       spree_core (~> 2.0.0)
-
-PATH
-  remote: ../spree_minicart_ajax_update
-  specs:
-    spree_minicart_ajax_update (2.pre.0.pre.stable)
-      spree_core (>= 2.pre.0.pre.stable)
-      spree_minicart
 
 GEM
   remote: https://rubygems.org/

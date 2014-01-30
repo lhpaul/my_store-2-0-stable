@@ -47,6 +47,6 @@ gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :bran
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
 gem 'spree_variant_options', :git => 'https://github.com/Numerico/spree_variant_options.git'
 gem 'spree_minicart', :git => 'https://github.com/sbounmy/spree_minicart.git', :branch => 'master'
-gem 'spree_minicart_ajax_update', :path => '../spree_minicart_ajax_update'
+gem 'spree_minicart_ajax_update', :git => 'https://github.com/lhpaul/spree_minicart_ajax_update', :branch => '2-0-stable'
 gem 'spree_wishlist', :git => 'git://github.com/spree/spree_wishlist.git', :branch => '2-0-stable'
 gem 'spree_email_to_friend', :git => 'git://github.com/spree/spree_email_to_friend.git', :branch => '2-0-stable'
