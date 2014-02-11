@@ -15,3 +15,4 @@
 //= require store/spree_minicart
 //= require store/spree_minicart_ajax_update
 //= require store/spree_wishlist
+//= require store/spree_middle_states

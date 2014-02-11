@@ -117,6 +117,12 @@ GIT
       savon (~> 1.2)
       spree_core (~> 2.0.0)
 
+PATH
+  remote: ../spree_middle_states
+  specs:
+    spree_middle_states (2.1.4)
+      spree_core (>= 2.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -345,6 +351,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_email_to_friend!
   spree_gateway!
+  spree_middle_states!
   spree_minicart!
   spree_minicart_ajax_update!
   spree_variant_options!
