@@ -1,3 +1,11 @@
+== Configuracion
+
+//config/initializers/spree.rb:
+
+config.checkout_zone = "[Name of the Zone]" ##To limiti the countries shown in the checkout form
+config.default_country_id = [Id of the country] ##default country for checkout form 
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create

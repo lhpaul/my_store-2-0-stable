@@ -9,6 +9,8 @@ Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   # config.site_name = "Spree Demo Site"
+  config.checkout_zone = "Chile" ##To limiti the countries shown in the checkout form
+  config.default_country_id = 115 ##default country for checkout form
 end
 
 Spree.user_class = "Spree::LegacyUser"
