@@ -77,6 +77,14 @@ GIT
       spree_core (~> 2.0.4)
 
 GIT
+  remote: https://github.com/lhpaul/spree_middle_states
+  revision: 6d6bf46db86622d71df7ba24d12bf086dc7f1bf3
+  branch: 2-0-stable
+  specs:
+    spree_middle_states (2.1.4)
+      spree_core (>= 2.0.0)
+
+GIT
   remote: https://github.com/lhpaul/spree_minicart_ajax_update
   revision: 5ab5fd783fee6d8fe81547c7a70196c1e1935988
   branch: 2-0-stable
@@ -84,6 +92,14 @@ GIT
     spree_minicart_ajax_update (2.pre.0.pre.stable)
       spree_core (>= 2.pre.0.pre.stable)
       spree_minicart
+
+GIT
+  remote: https://github.com/lhpaul/spree_no_zipcode
+  revision: dacd334689cc42c2436a5fd7238e403d8ed08c71
+  branch: 2-0-stable
+  specs:
+    spree_no_zipcode (2.pre.0.pre.stable)
+      spree_core (>= 2.pre.0.pre.stable)
 
 GIT
   remote: https://github.com/sbounmy/spree_minicart.git
@@ -116,12 +132,6 @@ GIT
     spree_gateway (2.1.0.beta)
       savon (~> 1.2)
       spree_core (~> 2.0.0)
-
-PATH
-  remote: ../spree_middle_states
-  specs:
-    spree_middle_states (2.1.4)
-      spree_core (>= 2.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -354,6 +364,7 @@ DEPENDENCIES
   spree_middle_states!
   spree_minicart!
   spree_minicart_ajax_update!
+  spree_no_zipcode!
   spree_variant_options!
   spree_wishlist!
   sqlite3
