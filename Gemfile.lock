@@ -133,6 +133,14 @@ GIT
       savon (~> 1.2)
       spree_core (~> 2.0.0)
 
+PATH
+  remote: ../spree_dineromail
+  specs:
+    spree_dineromail (2.pre.0.pre.stable)
+      happymapper (~> 0.4.0)
+      httparty
+      spree_core (>= 2.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -226,6 +234,8 @@ GEM
     ffaker (1.23.0)
     gyoku (0.4.6)
       builder (>= 2.1.2)
+    happymapper (0.4.1)
+      libxml-ruby (~> 2.0)
     highline (1.6.20)
     hike (1.2.3)
     httparty (0.12.0)
@@ -244,6 +254,7 @@ GEM
     kaminari (0.15.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    libxml-ruby (2.7.0)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -359,6 +370,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree!
   spree_auth_devise!
+  spree_dineromail!
   spree_email_to_friend!
   spree_gateway!
   spree_middle_states!
