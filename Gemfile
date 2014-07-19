@@ -6,8 +6,6 @@ ruby '1.9.3'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -39,12 +37,14 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 group :development do
+	gem 'sqlite3'
 	gem 'binding_of_caller'
 	gem 'better_errors'
 end
 
-group :development do
+group :production do
 	gem 'rails_12factor'
+	gem 'pg'
 end
 
 
