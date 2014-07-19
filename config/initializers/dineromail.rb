@@ -1,0 +1,1 @@
+DINEROMAIL = YAML.load_file("#{Rails.root}/config/dineromail.yml")[Rails.env]

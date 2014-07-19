@@ -11,6 +11,11 @@ Spree.config do |config|
   # config.site_name = "Spree Demo Site"
   config.checkout_zone = "Chile" ##To limiti the countries shown in the checkout form
   config.default_country_id = 115 ##default country for checkout form
+
+  config.use_s3 = true
+  config.s3_bucket = 'shotgunstore'
+  config.s3_access_key = "AKIAIUGQSHBKJBJJRXUQ"
+  config.s3_secret = "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"
 end
 
 Spree.user_class = "Spree::LegacyUser"

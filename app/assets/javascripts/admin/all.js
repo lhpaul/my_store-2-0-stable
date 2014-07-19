@@ -11,3 +11,5 @@
 
 //= require_tree .
 //= require admin/spree_middle_states
+//= require admin/spree_fancy
+//= require admin/spree_i18n

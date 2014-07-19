@@ -9,6 +9,10 @@
 *= require_self
 *= require_tree .
 *= require store/spree_variant_options
- *= require store/spree_minicart
- *= require store/spree_wishlist
+*= require store/spree_minicart
+*= require store/spree_wishlist
+*= require store/spree_delay_dispatch
+*= require foundation/components/_tooltips
+*= require normalize
+ *= require store/spree_fancy
 */

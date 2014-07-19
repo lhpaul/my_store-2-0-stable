@@ -16,3 +16,11 @@
 //= require store/spree_minicart_ajax_update
 //= require store/spree_wishlist
 //= require store/spree_middle_states
+//= require store/spree_delay_dispatch
+
+
+//= require foundation/foundation
+//= require vendor/modernizr
+//= require foundation/foundation.tooltip
+//= require store/spree_fancy
+//= require store/spree_i18n
