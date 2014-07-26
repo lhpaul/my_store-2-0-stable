@@ -13,9 +13,9 @@ Spree.config do |config|
   config.default_country_id = 115 ##default country for checkout form
 
   config.use_s3 = true
-  config.s3_bucket = 'shotgunstore'
-  config.s3_access_key = "AKIAIUGQSHBKJBJJRXUQ"
-  config.s3_secret = "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"
+  config.s3_bucket = 'generic_store'
+  config.s3_access_key = "AKIAIBNF76X6UNXE6LSQ"
+  config.s3_secret = "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"
 end
 
 Spree.user_class = "Spree::LegacyUser"
